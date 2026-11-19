@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Syarat &amp; Ketentuan - RentalKu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="logo">RentalKu</div></header>
+  <nav>
+    <a href="beranda.html">Beranda</a>
+    <a href="katalog.html">Katalog Kendaraan</a>
+    <a href="syarat.html" class="active">Syarat &amp; Ketentuan</a>
+    <a href="formulir.html" class="btn-pesan-nav">Pesan Sekarang</a>
+  </nav>
+
+  <main class="grid-container">
+    <section class="kartu">
+      <h2>Syarat Dokumen Penyewaan</h2>
+      <ul>
+        <li>Wajib memiliki E-KTP asli.</li>
+        <li>Memiliki SIM A (untuk mobil) atau SIM C (untuk motor) yang masih aktif.</li>
+        <li>Meninggalkan dokumen jaminan tambahan (KTM, KK, atau Paspor asli).</li>
+      </ul>
+
+      <h2 class="judul-kedua">Ketentuan Sewa</h2>
+      <ul>
+        <li>Hitungan sewa per hari adalah 24 jam sejak pengambilan.</li>
+        <li>Keterlambatan pengembalian dikenakan denda 10% dari harga sewa per jam.</li>
+        <li>Dilarang menyewakan kembali kendaraan kepada pihak ketiga.</li>
+      </ul>
+    </section>
+  </main>
+  <div class="text-center">
+  <a href="formulir.html" class="btn-primary">Pesan Kendaraan Sekarang</a>
+  </div>
+</body>
+</html>
