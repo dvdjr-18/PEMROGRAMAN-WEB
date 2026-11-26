@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bukti Pemesanan - RentalKu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><div class="logo">RentalKu</div></header>
+  <nav>
+    <a href="index.html">Beranda & Data Diri</a>
+    <a href="katalog.html">Katalog & Pilih Kendaraan</a>
+    <a href="syarat.html" class="active">Syarat & Pembayaran</a>
+  </nav>
+
+  <main class="grid-container">
+    <section class="kartu">
+      <h2>✅ Bukti Pemesanan Resmi - RentalKu</h2>
+      <p class="sub-info">Terima kasih! Pesanan Anda telah tercatat. Simpan atau cetak bukti pemesanan ini saat pengambilan unit.</p>
+
+      <div class="box-hasil">
+        <table class="tabel-hasil">
+          <tr>
+            <th>Kode Booking</th>
+            <td id="inv-kode" style="font-weight:bold; color:#3498db;">-</td>
+          </tr>
+          <tr>
+            <th>Nama Penyewa</th>
+            <td id="inv-nama">-</td>
+          </tr>
+          <tr>
+            <th>No. WhatsApp / Email</th>
+            <td id="inv-kontak">-</td>
+          </tr>
+          <tr>
+            <th>Alamat</th>
+            <td id="inv-alamat">-</td>
+          </tr>
+          <tr>
+            <th>Kendaraan & Durasi</th>
+            <td id="inv-unit">-</td>
+          </tr>
+          <tr>
+            <th>Layanan Tambahan</th>
+            <td id="inv-tambahan">-</td>
+          </tr>
+          <tr>
+            <th>Metode Pembayaran</th>
+            <td id="inv-metode">-</td>
+          </tr>
+          <tr>
+            <th>Total Pembayaran</th>
+            <td id="inv-total" style="font-size:20px; font-weight:bold; color:#d35400;">-</td>
+          </tr>
+        </table>
+
+        <div class="preview-ktp">
+          <p><strong>Identitas Penyewa (KTP / SIM):</strong></p>
+          <img id="inv-ktp" src="" alt="Foto KTP">
+        </div>
+      </div>
+
+      <div class="aksi-hasil">
+        <a href="index.html" class="btn-secondary" id="btn-selesai">Buat Pesanan Baru</a>
+        <button type="button" onclick="window.print()" class="btn-primary">🖨️ Cetak Bukti Pemesanan</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="syarat.js"></script>
+</body>
+</html>
